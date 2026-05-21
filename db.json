@@ -1,0 +1,65 @@
+{
+  "rooms": [
+    {
+      "id": 1,
+      "number": "101",
+      "type": "Single",
+      "price": 80,
+      "features": [
+        "WiFi",
+        "TV"
+      ],
+      "available": true
+    },
+    {
+      "id": 2,
+      "number": "102",
+      "type": "Double",
+      "price": 120,
+      "features": [
+        "WiFi",
+        "AC"
+      ],
+      "available": true
+    },
+    {
+      "id": 3,
+      "number": "201",
+      "type": "Suite",
+      "price": 220,
+      "features": [
+        "WiFi",
+        "AC",
+        "Mini Bar"
+      ],
+      "available": true
+    }
+  ],
+  "reservations": [
+    {
+      "id": 1,
+      "roomId": 2,
+      "guestName": "Alice",
+      "checkIn": "2026-06-01",
+      "checkOut": "2026-06-05",
+      "status": "confirmed"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin"
+    },
+    {
+      "id": 2,
+      "username": "raj",
+      "password": "123456"
+    },
+    {
+      "id": 3,
+      "username": "raj1234",
+      "password": "1234"
+    }
+  ]
+}

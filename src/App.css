@@ -1,0 +1,75 @@
+body {
+  min-height: 100%;
+  background: #eef2f7;
+}
+
+html, body, #root {
+  min-height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background: #eef2f7;
+}
+
+.card {
+  border: none;
+  border-radius: 1rem;
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+.list-group-item {
+  border-radius: 1rem;
+}
+
+.btn-primary {
+  min-width: 110px;
+}
+
+.alert-info {
+  border-radius: 1rem;
+}
+
+.profile-label,
+.form-label {
+  font-weight: 500;
+}
+
+.hero-card {
+  background: linear-gradient(135deg, #1d7cf5, #2cc4ff);
+  color: white;
+}
+
+.hero-card h1,
+.hero-card p {
+  color: white;
+}
+
+.room-banner {
+  background-image: linear-gradient(180deg, rgba(0,0,0,0.2), rgba(0,0,0,0.65)), url('https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80');
+  background-size: cover;
+  background-position: center;
+}
+
+.blog-card {
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.blog-card .card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-link {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: white;
+  text-decoration: underline;
+}
